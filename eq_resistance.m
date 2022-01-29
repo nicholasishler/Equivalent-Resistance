@@ -1,6 +1,7 @@
 %% Equivalent Resistance using 3 Resistors
 % This code will take any three resistors and an wanted resistance and will
-% calculate the order (i.e. series or parallel) they must be in to get the closest resistance
+% calculate the order (i.e. series or parallel) they must be in to get the
+% closest resistance to the desired resistance.
 
 r1 = input('Enter the resistance in ohms of the first resistor: ');
 r2 = input('Enter the resistance in ohms of the second resistor: ');
