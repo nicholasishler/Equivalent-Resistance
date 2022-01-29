@@ -7,9 +7,6 @@ r2 = input('Enter the resistance in ohms of the second resistor: ');
 r3 = input('Enter the resistance in ohms of the third resistor: ');
 desired_resistance = input('Enter the desired resistance in ohms: ');
 
-
-series_resistance = r1 + r2;
-
 if desired_resistance == r1
     fprintf("To achieve %3.2f ohms, use the first resistor in series.\n", desired_resistance)
 elseif desired_resistance == r2
